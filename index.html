@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYJ Electricistas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#agendar">Agendar</a></li>
+        <li><a href="#proveedores">Proveedores</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="servicios" class="section">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Instalaciones eléctricas</li>
+      <li>Revisiones técnicas</li>
+      <li>Garantías</li>
+      <li>Mantenimiento locativo</li>
+      <li>Venta de insumos</li>
+    </ul>
+  </section>
+
+  <section id="agendar" class="section">
+    <h2>Agendar una cita</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="servicio">Servicio requerido:</label>
+      <select id="servicio" name="servicio" required>
+        <option value="">Seleccione una opción</option>
+        <option value="instalacion">Instalación</option>
+        <option value="revision">Revisión</option>
+        <option value="garantia">Garantía</option>
+        <option value="mantenimiento">Mantenimiento locativo</option>
+        <option value="insumos">Venta de insumos</option>
+      </select>
+
+      <label for="fecha">Fecha preferida:</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="proveedores" class="section">
+    <h2>Proveedores</h2>
+    <div class="proveedores">
+      <div class="proveedor">Motormatic</div>
+      <div class="proveedor">Puertas Eléctricas Medellín</div>
+      <div class="proveedor">Control Puertas</div>
+      <div class="proveedor">Automatizaciones Mikel</div>
+      <div class="proveedor">Inpro Global SAS</div>
+      <div class="proveedor">Erreka Colombia</div>
+      <div class="proveedor">Puertas Eléctricas y Accesorios</div>
+      <div class="proveedor">Build Colombia SAS</div>
+    </div>
+  </section>
+
+  <footer id="contacto" class="section">
+    <footer id="contacto" class="section">
+  <p>Contacto: <a href="tel:3113580101-3235986382">+57 311 3580101- 3235986382</a> | syjmantenimiento@gmail.com</p>
+  <p>Dirección: Pereira, Dosquebradas – Colombia</p>
+</footer>
+
+
+
+  </footer>
+</body>
+</html>
